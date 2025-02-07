@@ -1,3 +1,5 @@
+//CODIGO CORRIGIDO TESTE FINAL
+
 //#define DOOM2
 
 #include <stdio.h>
@@ -13,7 +15,7 @@
 
 doomcom_t doomcom;
 int            vectorishooked;
-vo  id interrupt (*olddoomvect) (void);
+void interrupt (*olddoomvect) (void);
 
 
 
