@@ -13,7 +13,7 @@
 
 doomcom_t doomcom;
 int            vectorishooked;
-void interrupt (*olddoomvect) (void);
+vo  id interrupt (*olddoomvect) (void);
 
 
 
